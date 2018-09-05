@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.1.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="RA-02">
+<smd name="P$1" x="0" y="-1.5" dx="1.6764" dy="0.8128" layer="1"/>
+<wire x1="0" y1="0" x2="16" y2="0" width="0.127" layer="21"/>
+<wire x1="16" y1="0" x2="16" y2="-17" width="0.127" layer="21"/>
+<wire x1="16" y1="-17" x2="0" y2="-17" width="0.127" layer="21"/>
+<wire x1="0" y1="-17" x2="0" y2="0" width="0.127" layer="21"/>
+<smd name="P$16" x="16" y="-1.5" dx="1.6764" dy="0.8128" layer="1"/>
+<smd name="P$2" x="0" y="-3.5" dx="1.6764" dy="0.8128" layer="1"/>
+<smd name="P$15" x="16" y="-3.5" dx="1.6764" dy="0.8128" layer="1"/>
+<smd name="P$3" x="0" y="-5.5" dx="1.6764" dy="0.8128" layer="1"/>
+<smd name="P$14" x="16" y="-5.5" dx="1.6764" dy="0.8128" layer="1"/>
+<smd name="P$4" x="0" y="-7.5" dx="1.6764" dy="0.8128" layer="1"/>
+<smd name="P$5" x="0" y="-9.5" dx="1.6764" dy="0.8128" layer="1"/>
+<smd name="P$6" x="0" y="-11.5" dx="1.6764" dy="0.8128" layer="1"/>
+<smd name="P$7" x="0" y="-13.5" dx="1.6764" dy="0.8128" layer="1"/>
+<smd name="P$8" x="0" y="-15.5" dx="1.6764" dy="0.8128" layer="1"/>
+<smd name="P$10" x="16" y="-13.5" dx="1.6764" dy="0.8128" layer="1"/>
+<smd name="P$9" x="16" y="-15.5" dx="1.6764" dy="0.8128" layer="1"/>
+<smd name="P$11" x="16" y="-11.5" dx="1.6764" dy="0.8128" layer="1"/>
+<smd name="P$12" x="16" y="-9.5" dx="1.6764" dy="0.8128" layer="1"/>
+<smd name="P$13" x="16" y="-7.5" dx="1.6764" dy="0.8128" layer="1"/>
+<circle x="2.54" y="-1.27" radius="1.27" width="0.127" layer="21"/>
+<text x="0" y="0" size="1.27" layer="21">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="RA-02">
+<wire x1="-12.7" y1="10.16" x2="12.7" y2="10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="10.16" x2="12.7" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-12.7" x2="-12.7" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-12.7" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
+<pin name="GND" x="-17.78" y="7.62" length="middle"/>
+<pin name="3.3V" x="-17.78" y="5.08" length="middle"/>
+<pin name="RESET" x="-17.78" y="0" length="middle"/>
+<pin name="DI00" x="-17.78" y="-2.54" length="middle"/>
+<pin name="DI01" x="-17.78" y="-5.08" length="middle"/>
+<pin name="DI02" x="-17.78" y="-7.62" length="middle"/>
+<pin name="DI03" x="-17.78" y="-10.16" length="middle"/>
+<pin name="DI04" x="17.78" y="-7.62" length="middle" rot="R180"/>
+<pin name="DI05" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="SCK" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="MISO" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="MOSI" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="NSS" x="17.78" y="5.08" length="middle" rot="R180"/>
+<text x="-12.7" y="10.16" size="1.778" layer="94">&gt;NAME</text>
+<text x="2.54" y="10.16" size="1.778" layer="94">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="RA-02">
+<gates>
+<gate name="G$1" symbol="RA-02" x="-10.16" y="22.86"/>
+</gates>
+<devices>
+<device name="" package="RA-02">
+<connects>
+<connect gate="G$1" pin="3.3V" pad="P$3"/>
+<connect gate="G$1" pin="DI00" pad="P$5"/>
+<connect gate="G$1" pin="DI01" pad="P$6"/>
+<connect gate="G$1" pin="DI02" pad="P$7"/>
+<connect gate="G$1" pin="DI03" pad="P$8"/>
+<connect gate="G$1" pin="DI04" pad="P$10"/>
+<connect gate="G$1" pin="DI05" pad="P$11"/>
+<connect gate="G$1" pin="GND" pad="P$1 P$2 P$9 P$16"/>
+<connect gate="G$1" pin="MISO" pad="P$13"/>
+<connect gate="G$1" pin="MOSI" pad="P$14"/>
+<connect gate="G$1" pin="NSS" pad="P$15"/>
+<connect gate="G$1" pin="RESET" pad="P$4"/>
+<connect gate="G$1" pin="SCK" pad="P$12"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

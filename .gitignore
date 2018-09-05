@@ -1,3 +1,7 @@
 /build
 /build-*
 /tmp
+*.job
+*.b#*
+*.s#*
+*.l#*
