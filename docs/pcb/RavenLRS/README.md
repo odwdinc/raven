@@ -15,6 +15,9 @@ with support of optional lcd display.
 <img src="https://github.com/odwdinc/raven/blob/master/docs/pcb/RavenLRS/Bottom.PNG">
 
 
+[embed]https://github.com/odwdinc/raven/blob/master/docs/pcb/RavenLRS/schmaptic.pdf[/embed]
+
+
 BOM
 
 <a href="https://www.tindie.com/products/ddebeer/esp-wroom-32/">1x ESP-WROOM-32</a>
